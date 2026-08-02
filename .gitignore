@@ -1,0 +1,43 @@
+# ========== Python 缓存与编译产物 ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+.env
+.venv
+env/
+pip-log.txt
+
+# ========== VS Code / WSL 编辑器缓存 ==========
+.vscode/
+*.log
+.DS_Store
+*.swp
+*.swo
+
+# ========== 编译输出、临时文件 ==========
+build/
+dist/
+*.o
+*.out
+*.exe
+*.bin
+*.log
+tmp/
+temp/
+
+# ========== 大型数据、压缩包（禁止上传） ==========
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.mp4
+*.jpg
+*.png
+# 如果需要保留少量图片，可以手动取消注释并精准放行
+
+# ========== 系统垃圾文件 ==========
+Thumbs.db
+desktop.ini
